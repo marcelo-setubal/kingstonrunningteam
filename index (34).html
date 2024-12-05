@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingston Running Team 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fundo preto */
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+        }
+
+        h2 {
+            font-family: 'Anton', sans-serif; /* Fonte esportiva */
+            color: #FF4500; /* Laranja vibrante */
+            text-align: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin: 2rem 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #ddd;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .kit-corrida {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: nowrap;
+        }
+
+        .kit-item {
+            flex: 1;
+            max-width: 22%;
+            background-color: #1a1a1a;
+            padding: 1rem;
+            border: 1px solid #333;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .kit-item:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 6px 12px rgba(255, 69, 0, 0.6);
+        }
+
+        .kit-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .info-corrida {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            padding: 3rem 2rem;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://conteudoclara.com.br/wp-content/uploads/2023/03/Home_Banner_5.webp');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .info-corrida img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .info-text {
+            background-color: #BF0000;
+            padding: 2rem;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        .info-text h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 2rem;
+            color: #fff;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .info-detail {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+
+        .info-detail i {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .strava-embed {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-family: 'Anton', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Sessão 1: Banner Principal -->
+<header>
+    <img src="https://github.com/marcelo-setubal/kingstonrunningteam/blob/main/banners.png?raw=true" alt="Banner Kingston Running Team">
+</header>
+
+<!-- Sessão 2: Kit da Corrida -->
+<section class="container">
+    <h2>Kit da Corrida</h2>
+    <div class="kit-corrida">
+        <div class="kit-item">
+            <img src="https://github.com/marcelo-setubal/kingstonrunningteam/blob/main/cam.png?raw=true" alt="Camisa de Corrida">
+            <p>Camisa de Corrida</p>
+        </div>
+        <div class="kit-item">
+            <img src="https://github.com/marcelo-setubal/kingstonrunningteam/blob/main/cord.png?raw=true" alt="Medalha de participação">
+            <p>Medalha de participação</p>
+        </div>
+        <div class="kit-item">
+            <img src="https://github.com/marcelo-setubal/kingstonrunningteam/blob/main/Imagem4.png?raw=true" alt="Água é por nossa conta">
+            <p>Água é por nossa conta</p>
+        </div>
+        <div class="kit-item">
+            <img src="https://github.com/marcelo-setubal/kingstonrunningteam/blob/main/Imagem3.png?raw=true" alt="Leve o seu próprio tênis">
+            <p>Leve o seu próprio tênis</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sessão 3: Informações sobre o evento -->
+<section class="info-corrida">
+    <img src="https://github.com/marcelo-setubal/kingstonrunningteam/blob/main/Imagem6.png?raw=true" alt="Logo Resort Clara Ibiúna">
+    <div class="info-text">
+        <h2>Local do Evento</h2>
+        <div class="info-detail">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><strong>Clara Ibiúna Resort</strong></p>
+        </div>
+        <div class="info-detail">
+            <i class="fas fa-calendar-alt"></i>
+            <p><strong>Data:</strong> 20/12/2024</p>
+        </div>
+        <div class="info-detail">
+            <i class="fas fa-clock"></i>
+            <p><strong>Horário:</strong> 06:00hs</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sessão 4: Mapa da Rota do Strava -->
+<section class="strava-embed">
+    <h2>Mapa da Rota</h2>
+    <div class="strava-embed-placeholder" 
+         data-embed-type="route" 
+         data-embed-id="3299797593808846460e" 
+         data-units="metric" 
+         data-full-width="true" 
+         data-style="standard" 
+         data-terrain="3d" 
+         data-surface-type="true" 
+         data-map-hash="12.95/-23.60736/-47.2815" 
+         data-from-embed="true">
+    </div>
+    <script src="https://strava-embeds.com/embed.js"></script>
+</section>
+
+<!-- Rodapé -->
+<footer>
+    <p>Kingston Running Team 2024</p>
+</footer>
+
+</body>
+</html>
